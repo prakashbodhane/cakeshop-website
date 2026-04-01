@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frost Factory - Premium Cake Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <i class="fas fa-birthday-cake"></i> Frost Factory
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-3 fw-bold mb-4 animate-fade-in">Welcome to <br><span class="text-gradient">Frost Factory</span></h1>
+                    <p class="lead mb-4">Where Every Slice Tells a Sweet Story</p>
+                    <p class="mb-5">Handcrafted cakes made with love, passion, and the finest ingredients. Creating memorable moments one cake at a time.</p>
+                    <div class="hero-buttons">
+                        <a href="#menu" class="btn btn-primary btn-lg me-3">
+                            <i class="fas fa-list-ul me-2"></i>View Menu
+                        </a>
+                        <a href="#contact" class="btn btn-outline-light btn-lg">
+                            <i class="fas fa-phone me-2"></i>Order Now
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image-container">
+                        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&q=80" alt="Delicious Cake" class="img-fluid rounded-4 shadow-lg" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="about-image-grid">
+                        <img src="https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=400&q=80" alt="About Us" class="img-fluid rounded-4 shadow" loading="lazy">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <span class="section-badge">About Us</span>
+                    <h2 class="section-title mb-4">Crafting Sweet Memories Since 2015</h2>
+                    <p class="text-muted mb-4">
+                        At Frost Factory, we believe that every celebration deserves a perfect cake. Our journey began with a simple mission: to create extraordinary cakes that bring joy to every occasion.
+                    </p>
+                    <p class="text-muted mb-4">
+                        With over 8 years of experience, our master bakers combine traditional techniques with modern innovation to deliver cakes that are not only visually stunning but also incredibly delicious.
+                    </p>
+                    <div class="row mt-4">
+                        <div class="col-md-6 mb-3">
+                            <div class="feature-box">
+                                <i class="fas fa-award text-primary mb-3"></i>
+                                <h5>Premium Quality</h5>
+                                <p class="small text-muted">Only the finest ingredients</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="feature-box">
+                                <i class="fas fa-heart text-danger mb-3"></i>
+                                <h5>Made with Love</h5>
+                                <p class="small text-muted">Every cake is a masterpiece</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="feature-box">
+                                <i class="fas fa-clock text-success mb-3"></i>
+                                <h5>Fresh Daily</h5>
+                                <p class="small text-muted">Baked fresh every morning</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="feature-box">
+                                <i class="fas fa-palette text-warning mb-3"></i>
+                                <h5>Custom Designs</h5>
+                                <p class="small text-muted">Tailored to your vision</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-badge">Testimonials</span>
+                <h2 class="section-title">What Our Customers Say</h2>
+                <p class="text-muted">Don't just take our word for it</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card">
+                        <div class="stars mb-3">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"The wedding cake from Frost Factory was absolutely stunning! Not only did it look amazing, but it tasted even better. All our guests were raving about it!"</p>
+                        <div class="testimonial-author">
+                            <img src="https://i.pravatar.cc/100?img=1" alt="Sarah Johnson" class="rounded-circle">
+                            <div>
+                                <h6 class="mb-0">Sarah Johnson</h6>
+                                <small class="text-muted">Bride</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card">
+                        <div class="stars mb-3">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Best birthday cake ever! The custom design was exactly what I wanted, and the chocolate ganache was to die for. Frost Factory never disappoints!"</p>
+                        <div class="testimonial-author">
+                            <img src="https://i.pravatar.cc/100?img=3" alt="Michael Chen" class="rounded-circle">
+                            <div>
+                                <h6 class="mb-0">Michael Chen</h6>
+                                <small class="text-muted">Regular Customer</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card">
+                        <div class="stars mb-3">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"I ordered a corporate cake for our company anniversary. The team was professional, the delivery was on time, and the cake was a huge hit. Highly recommended!"</p>
+                        <div class="testimonial-author">
+                            <img src="https://i.pravatar.cc/100?img=5" alt="Emily Rodriguez" class="rounded-circle">
+                            <div>
+                                <h6 class="mb-0">Emily Rodriguez</h6>
+                                <small class="text-muted">Event Manager</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-badge">Our Menu</span>
+                <h2 class="section-title">Delicious Creations</h2>
+                <p class="text-muted">Explore our signature cakes and desserts</p>
+            </div>
+            
+            <!-- Filter Buttons -->
+            <div class="text-center mb-5">
+                <button class="btn btn-filter active" data-filter="all">All</button>
+                <button class="btn btn-filter" data-filter="cakes">Cakes</button>
+                <button class="btn btn-filter" data-filter="tier-cakes">Tier Cakes</button>
+                <button class="btn btn-filter" data-filter="cookies">Cookies</button>
+                <button class="btn btn-filter" data-filter="cupcakes">Cupcakes</button>
+                <button class="btn btn-filter" data-filter="pastries">Pastries</button>
+                <button class="btn btn-filter" data-filter="puffs">Puffs</button>
+                <button class="btn btn-filter" data-filter="desserts">Desserts</button>
+                <button class="btn btn-filter" data-filter="burgers">Burgers</button>
+                <button class="btn btn-filter" data-filter="pizza">Pizza</button>
+                <button class="btn btn-filter" data-filter="brownie">Brownie</button>
+            </div>
+
+            <div class="row menu-grid">
+                <div class="col-lg-4 col-md-6 mb-4 menu-item" data-category="cakes">
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1558636508-e0db3814bd1d?w=400&q=80&fit=crop" alt="Chocolate Dream" loading="lazy">
+                            <div class="menu-overlay">
+                                <button class="btn btn-light btn-sm view-btn" 
+                                    data-name="Chocolate Dream" 
+                                    data-description="Rich chocolate layers with Belgian chocolate ganache. A decadent dessert featuring multiple layers of moist chocolate cake, filled with smooth chocolate cream, and topped with a luxurious Belgian chocolate ganache. Perfect for chocolate lovers!"
+                                    data-image="https://images.unsplash.com/photo-1558636508-e0db3814bd1d?w=800"
+                                    data-category="Cakes">
+                                    <i class="fas fa-eye me-1"></i> View
+                                </button>
+                            </div>
+                        </div>
+                        <div class="menu-content">
+                            <h5 class="mb-2">Chocolate Dream</h5>
+                            <p class="text-muted small">Rich chocolate layers with Belgian chocolate ganache</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 menu-item" data-category="cakes">
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=400&q=80&fit=crop" alt="Red Velvet Delight" loading="lazy">
+                            <div class="menu-overlay">
+                                <button class="btn btn-light btn-sm view-btn" 
+                                    data-name="Red Velvet Delight" 
+                                    data-description="Classic red velvet with cream cheese frosting. This stunning cake features vibrant red layers of velvety smooth cake with a subtle cocoa flavor, perfectly paired with tangy cream cheese frosting. A timeless classic!"
+                                    data-image="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800"
+                                    data-category="Cakes">
+                                    <i class="fas fa-eye me-1"></i> View
+                                </button>
+                            </div>
+                        </div>
+                        <div class="menu-content">
+                            <h5 class="mb-2">Red Velvet Delight</h5>
+                            <p class="text-muted small">Classic red velvet with cream cheese frosting</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 menu-item" data-category="cakes">
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=400&q=80&fit=crop" alt="Vanilla Heaven" loading="lazy">
+                            <div class="menu-overlay">
+                                <button class="btn btn-light btn-sm view-btn" 
+                                    data-name="Vanilla Heaven" 
+                                    data-description="Light vanilla sponge with vanilla buttercream. An elegant and timeless dessert featuring fluffy vanilla sponge cake layers filled and frosted with smooth vanilla buttercream. Simple yet absolutely delicious!"
+                                    data-image="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=800"
+                                    data-category="Cakes">
+                                    <i class="fas fa-eye me-1"></i> View
+                                </button>
+                            </div>
+                        </div>
+                        <div class="menu-content">
+                            <h5 class="mb-2">Vanilla Heaven</h5>
+                            <p class="text-muted small">Light vanilla sponge with vanilla buttercream</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 menu-item" data-category="cupcakes">
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1599785209796-786432b228bc?w=400&q=80&fit=crop" alt="Gourmet Cupcakes" loading="lazy">
+                            <div class="menu-overlay">
+                                <button class="btn btn-light btn-sm view-btn" 
+                                    data-name="Gourmet Cupcakes" 
+                                    data-description="Assorted flavors with premium frosting. Our cupcakes come in a variety of flavors including vanilla, chocolate, red velvet, and seasonal specials. Each topped with expertly crafted frosting and decorative touches. Perfect for parties and celebrations!"
+                                    data-image="https://images.unsplash.com/photo-1599785209796-786432b228bc?w=800"
+                                    data-category="Cupcakes">
+                                    <i class="fas fa-eye me-1"></i> View
+                                </button>
+                            </div>
+                        </div>
+                        <div class="menu-content">
+                            <h5 class="mb-2">Gourmet Cupcakes</h5>
+                            <p class="text-muted small">Assorted flavors with premium frosting</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 menu-item" data-category="desserts">
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400&q=80&fit=crop" alt="Cheesecake Supreme" loading="lazy">
+                            <div class="menu-overlay">
+                                <button class="btn btn-light btn-sm view-btn" 
+                                    data-name="Cheesecake Supreme" 
+                                    data-description="Creamy New York style cheesecake. Rich and velvety smooth cheesecake made with the finest cream cheese, baked to perfection on a buttery graham cracker crust. Can be served plain or with your choice of fruit toppings!"
+                                    data-image="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800"
+                                    data-category="Desserts">
+                                    <i class="fas fa-eye me-1"></i> View
+                                </button>
+                            </div>
+                        </div>
+                        <div class="menu-content">
+                            <h5 class="mb-2">Cheesecake Supreme</h5>
+                            <p class="text-muted small">Creamy New York style cheesecake</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 menu-item" data-category="desserts">
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400&q=80&fit=crop" alt="Tiramisu Classic" loading="lazy">
+                            <div class="menu-overlay">
+                                <button class="btn btn-light btn-sm view-btn" 
+                                    data-name="Tiramisu Classic" 
+                                    data-description="Italian coffee-soaked ladyfingers with mascarpone. An authentic Italian dessert made with delicate ladyfinger cookies dipped in espresso, layered with a rich mascarpone cream, and dusted with cocoa powder. A coffee lover's dream!"
+                                    data-image="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800"
+                                    data-category="Desserts">
+                                    <i class="fas fa-eye me-1"></i> View
+                                </button>
+                            </div>
+                        </div>
+                        <div class="menu-content">
+                            <h5 class="mb-2">Tiramisu Classic</h5>
+                            <p class="text-muted small">Italian coffee-soaked ladyfingers with mascarpone</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 menu-item" data-category="tier-cakes">
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1535254973040-607b474cb50d?w=400&q=80&fit=crop" alt="Wedding Tier Cake" loading="lazy">
+                            <div class="menu-overlay">
+                                <button class="btn btn-light btn-sm view-btn" 
+                                    data-name="Wedding Tier Cake" 
+                                    data-description="Elegant 3-tier cake perfect for special occasions. A stunning multi-tiered masterpiece designed for weddings and grand celebrations. Customizable with your choice of flavors, fillings, and decorations. Each tier is beautifully crafted to create an unforgettable centerpiece!"
+                                    data-image="https://images.unsplash.com/photo-1535254973040-607b474cb50d?w=800"
+                                    data-category="Tier Cakes">
+                                    <i class="fas fa-eye me-1"></i> View
+                                </button>
+                            </div>
+                        </div>
+                        <div class="menu-content">
+                            <h5 class="mb-2">Wedding Tier Cake</h5>
+                            <p class="text-muted small">Elegant 3-tier cake perfect for special occasions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 menu-item" data-category="cookies">
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400&q=80&fit=crop" alt="Chocolate Chip Cookies" loading="lazy">
+                            <div class="menu-overlay">
+                                <button class="btn btn-light btn-sm view-btn" 
+                                    data-name="Chocolate Chip Cookies" 
+                                    data-description="Freshly baked cookies with premium chocolate chips. Classic homestyle cookies made with real butter, brown sugar, and generous amounts of premium chocolate chips. Baked fresh daily - crispy on the outside, soft and chewy on the inside!"
+                                    data-image="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800"
+                                    data-category="Cookies">
+                                    <i class="fas fa-eye me-1"></i> View
+                                </button>
+                            </div>
+                        </div>
+                        <div class="menu-content">
+                            <h5 class="mb-2">Chocolate Chip Cookies</h5>
+                            <p class="text-muted small">Freshly baked cookies with premium chocolate chips</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 menu-item" data-category="pastries">
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&q=80&fit=crop" alt="French Pastries" loading="lazy">
+                            <div class="menu-overlay">
+                                <button class="btn btn-light btn-sm view-btn" 
+                                    data-name="French Pastries" 
+                                    data-description="Assorted croissants, pain au chocolat, and more. Authentic French pastries made using traditional techniques. Our selection includes buttery croissants, chocolate-filled pain au chocolat, fruit danishes, and almond croissants. Perfect for breakfast or afternoon tea!"
+                                    data-image="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800"
+                                    data-category="Pastries">
+                                    <i class="fas fa-eye me-1"></i> View
+                                </button>
+                            </div>
+                        </div>
+                        <div class="menu-content">
+                            <h5 class="mb-2">French Pastries</h5>
+                            <p class="text-muted small">Assorted croissants, pain au chocolat, and more</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 menu-item" data-category="puffs">
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?w=400&q=80&fit=crop" alt="Cream Puffs" loading="lazy">
+                            <div class="menu-overlay">
+                                <button class="btn btn-light btn-sm view-btn" 
+                                    data-name="Cream Puffs" 
+                                    data-description="Light and airy puffs filled with vanilla cream. Delicate choux pastry shells that are crispy on the outside and hollow inside, filled with smooth vanilla pastry cream. Often topped with a light dusting of powdered sugar or chocolate glaze. A French classic!"
+                                    data-image="https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?w=800"
+                                    data-category="Puffs">
+                                    <i class="fas fa-eye me-1"></i> View
+                                </button>
+                            </div>
+                        </div>
+                        <div class="menu-content">
+                            <h5 class="mb-2">Cream Puffs</h5>
+                            <p class="text-muted small">Light and airy puffs filled with vanilla cream</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 menu-item" data-category="burgers">
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&q=80&fit=crop" alt="Gourmet Burgers" loading="lazy">
+                            <div class="menu-overlay">
+                                <button class="btn btn-light btn-sm view-btn" 
+                                    data-name="Gourmet Burgers" 
+                                    data-description="Juicy beef patty with fresh toppings and artisan bun. Our signature burgers feature premium beef patties grilled to perfection, topped with fresh lettuce, tomatoes, onions, pickles, and special sauce. Served on our freshly baked artisan brioche buns. Customize with your favorite toppings!"
+                                    data-image="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800"
+                                    data-category="Burgers">
+                                    <i class="fas fa-eye me-1"></i> View
+                                </button>
+                            </div>
+                        </div>
+                        <div class="menu-content">
+                            <h5 class="mb-2">Gourmet Burgers</h5>
+                            <p class="text-muted small">Juicy beef patty with fresh toppings and artisan bun</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 menu-item" data-category="pizza">
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&q=80&fit=crop" alt="Artisan Pizza" loading="lazy">
+                            <div class="menu-overlay">
+                                <button class="btn btn-light btn-sm view-btn" 
+                                    data-name="Artisan Pizza" 
+                                    data-description="Wood-fired pizza with premium toppings. Handcrafted pizzas baked in our authentic wood-fired oven for that perfect crispy crust. Made with imported Italian flour, San Marzano tomatoes, and the finest mozzarella. Choose from classic Margherita, Pepperoni, or create your own!"
+                                    data-image="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800"
+                                    data-category="Pizza">
+                                    <i class="fas fa-eye me-1"></i> View
+                                </button>
+                            </div>
+                        </div>
+                        <div class="menu-content">
+                            <h5 class="mb-2">Artisan Pizza</h5>
+                            <p class="text-muted small">Wood-fired pizza with premium toppings</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 menu-item" data-category="brownie">
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1607920591413-4ec007e70023?w=400&q=80&fit=crop" alt="Fudge Brownie" loading="lazy">
+                            <div class="menu-overlay">
+                                <button class="btn btn-light btn-sm view-btn" 
+                                    data-name="Fudge Brownie" 
+                                    data-description="Rich, dense chocolate brownie with walnuts. Intensely chocolaty brownies with a fudgy, moist center. Made with premium cocoa and studded with crunchy walnuts. These brownies are the ultimate chocolate indulgence - perfect on their own or served warm with vanilla ice cream!"
+                                    data-image="https://images.unsplash.com/photo-1607920591413-4ec007e70023?w=800"
+                                    data-category="Brownie">
+                                    <i class="fas fa-eye me-1"></i> View
+                                </button>
+                            </div>
+                        </div>
+                        <div class="menu-content">
+                            <h5 class="mb-2">Fudge Brownie</h5>
+                            <p class="text-muted small">Rich, dense chocolate brownie with walnuts</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Pagination -->
+            <nav class="mt-5">
+                <ul class="pagination justify-content-center" id="menuPagination">
+                    <!-- Pagination will be generated by JavaScript -->
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team-section py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-badge">Our Team</span>
+                <h2 class="section-title">Meet Our Master Bakers</h2>
+                <p class="text-muted">The talented people behind every creation</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="https://i.pravatar.cc/300?img=12" alt="Chef Emma">
+                            <div class="team-social">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-content">
+                            <h5>Emma Williams</h5>
+                            <p class="text-muted small">Head Pastry Chef</p>
+                            <p class="small">15 years of experience in French pastry techniques</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="https://i.pravatar.cc/300?img=13" alt="Chef David">
+                            <div class="team-social">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-content">
+                            <h5>David Martinez</h5>
+                            <p class="text-muted small">Cake Decorator</p>
+                            <p class="small">Specialized in custom cake designs and sugar art</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="https://i.pravatar.cc/300?img=20" alt="Chef Sophia">
+                            <div class="team-social">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-content">
+                            <h5>Sophia Lee</h5>
+                            <p class="text-muted small">Chocolatier</p>
+                            <p class="small">Expert in Belgian chocolate and ganache creations</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="https://i.pravatar.cc/300?img=15" alt="Chef James">
+                            <div class="team-social">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-content">
+                            <h5>James Anderson</h5>
+                            <p class="text-muted small">Sous Chef</p>
+                            <p class="small">Master of traditional baking and bread making</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-badge">Contact Us</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="text-muted">We'd love to hear from you</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h5>Visit Us</h5>
+                        <p class="text-muted">123 Sweet Street, Bakery District<br>New York, NY 10001</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h5>Call Us</h5>
+                        <p class="text-muted">+1 (555) 123-4567<br>Mon - Sat: 8AM - 8PM</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h5>Email Us</h5>
+                        <p class="text-muted">info@frostfactory.com<br>orders@frostfactory.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-8 mx-auto">
+                    <div class="contact-form-card">
+                        <form id="contactForm">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <input type="text" class="form-control" placeholder="Your Name" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <input type="email" class="form-control" placeholder="Your Email" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <input type="tel" class="form-control" placeholder="Phone Number" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <select class="form-control" required>
+                                        <option value="">Select Occasion</option>
+                                        <option>Birthday</option>
+                                        <option>Wedding</option>
+                                        <option>Anniversary</option>
+                                        <option>Corporate Event</option>
+                                        <option>Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg w-100">
+                                <i class="fas fa-paper-plane me-2"></i>Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h4 class="mb-4"><i class="fas fa-birthday-cake me-2"></i>Frost Factory</h4>
+                    <p class="text-muted">Creating sweet memories since 2015. Premium quality cakes and desserts made with love and the finest ingredients.</p>
+                    <div class="social-links mt-4">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5 class="mb-4">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="mb-4">Opening Hours</h5>
+                    <ul class="footer-links">
+                        <li>Monday - Friday: 8AM - 8PM</li>
+                        <li>Saturday: 9AM - 9PM</li>
+                        <li>Sunday: 10AM - 6PM</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5 class="mb-4">Newsletter</h5>
+                    <p class="text-muted small">Subscribe for special offers and updates</p>
+                    <form class="newsletter-form">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Your email">
+                            <button class="btn btn-primary" type="submit">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="mb-0 text-muted">&copy; 2025 Frost Factory. All rights reserved. | Designed by Prakash Bodhane</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Product Detail Modal -->
+    <div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title" id="productModalLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img id="modalImage" src="" alt="" class="img-fluid rounded-4 mb-3">
+                        </div>
+                        <div class="col-md-6">
+                            <span class="badge bg-primary mb-3" id="modalCategory"></span>
+                            <h3 id="modalName" class="mb-3"></h3>
+                            <p id="modalDescription" class="text-muted"></p>
+                            <div class="mt-4">
+                                <button class="btn btn-primary btn-lg w-100" id="orderNowBtn">
+                                    <i class="fas fa-shopping-cart me-2"></i>Order Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
